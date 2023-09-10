@@ -1,0 +1,67 @@
+# packages #
+node_modules/
+package-lock.json
+yarn.lock
+
+# ide #
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+.project
+.*proj
+.idea/
+.classpath
+.cache/
+
+# mac #
+.DS_Store
+ehthumbs.db
+
+# Icon #
+Thumbs.db
+
+# logs #
+*.log
+*.log.*
+
+# build #
+*.tgz
+*.gz
+*.zip
+*.rar
+lib/
+dist/
+
+# subversion #
+.svn/
+
+# cache #
+.awcache/
+dll/
+manifest.json
+
+# tests #
+coverage
+
+# others #
+*.diff
+*.patch
+*.bak
+
+# test report #
+test-report.html
+test-results.json
+/e2e/cypress/results
+/e2e/cypress/screenshots
+/e2e/cypress/videos
+/e2e/mochawesome-report
+/e2e/mochawesome.json
+/e2e/.nyc_output
+/packages/**/public/css
+/packages/**/public/js
+
+# maven #
+target/

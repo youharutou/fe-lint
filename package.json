@@ -1,0 +1,40 @@
+{
+  "name": "@youharutou/fe-lint",
+  "version": "2.2.0",
+  "description": "Provide general configuration of eslint/stylelint/prettier",
+  "main": "./bin/fe-lint.js",
+  "bin": {
+    "fe-lint": "./bin/fe-lint.js"
+  },
+  "scripts": {},
+  "author": "Chundong",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-typescript": "^7.10.4",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "chalk": "^4.1.0",
+    "commander": "^6.2.1",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.1.5",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "fs-extra": "^9.0.1",
+    "ora": "^5.2.0",
+    "prettier": "^2.0.5",
+    "shelljs": "^0.8.4",
+    "stylelint": "^14.8.2",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "postcss-scss": "^4.0.4",
+    "postcss-less": "^6.0.0",
+    "typescript": "^3.9.2"
+  },
+  "engines": {
+    "node": ">= 16.2.0",
+    "npm": ">= 7.13.0"
+  }
+}

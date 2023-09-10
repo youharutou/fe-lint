@@ -1,0 +1,9 @@
+node_modules/*
+/dist/*
+/lib/*
+/coverage/*
+/dll/*
+/docker/*
+/mock/*
+/helm/*
+/.husky/*

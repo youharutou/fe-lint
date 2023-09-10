@@ -1,0 +1,13 @@
+singleQuote: true
+printWidth: 120
+trailingComma: 'all'
+arrowParens: 'always'
+semi: true
+tabWidth: 2
+proseWrap: 'always'
+endOfLine: 'lf'
+overrides:
+  - files: ['*.yaml', '*.yml']
+    options:
+      #Prevent whitespace between double curly brackets
+      bracketSpacing: false
