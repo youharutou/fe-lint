@@ -7,7 +7,7 @@
     "fe-lint": "./bin/fe-lint.js"
   },
   "scripts": {},
-  "author": "Chundong",
+  "author": "youharutou",
   "license": "UNLICENSED",
   "dependencies": {
     "@babel/core": "^7.10.4",
